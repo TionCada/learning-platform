@@ -62,10 +62,10 @@ export function DataTable<TData, TValue>({
           onChange={(event) =>
             table.getColumn("title")?.setFilterValue(event.target.value)
           }
-          className="max-w-sm"
+          className="max-w-sm rounded-full bg-white-100 focus-visible:ring-violet-500"
         />
         <Link href="/teacher/create">
-          <Button>
+          <Button className="bg-white text-accent-foreground hover:bg-violet-100 hover:text-violet-500">
             <PlusCircle className="h-4 w-4 mr-2" />
             Створити курс
           </Button>

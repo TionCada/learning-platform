@@ -73,7 +73,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
       <div className="p-6">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-y-2">
-            <h1 className="text-2xl font-medium">Налаштування курсу</h1>
+            <h1 className="text-2xl font-medium font-sans">Налаштування курсу</h1>
             <span className="text-sm text-slate-700">
               Заповніть усі поля {completionText}
             </span>

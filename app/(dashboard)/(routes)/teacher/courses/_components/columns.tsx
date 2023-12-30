@@ -21,7 +21,7 @@ export const columns: ColumnDef<Course>[] = [
     header: ({ column }) => {
       return (
         <Button
-          variant="ghost"
+          variant="violet"
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
         >
           Назва
@@ -35,7 +35,7 @@ export const columns: ColumnDef<Course>[] = [
     header: ({ column }) => {
       return (
         <Button
-          variant="ghost"
+          variant="violet"
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
         >
           Опубліковано

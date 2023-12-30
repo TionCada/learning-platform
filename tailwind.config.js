@@ -73,6 +73,12 @@ module.exports = withUt({
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    fontFamily: {
+      title: [],
+      headline: [],
+      body: [],
+      footnote: [],
+    },
   },
   plugins: [require("tailwindcss-animate")],
 });

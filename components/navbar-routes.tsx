@@ -28,14 +28,14 @@ export const NavbarRoutes = () => {
       <div className="flex gap-x-2 ml-auto">
         {isTeacherPage || isCoursePage ? (
           <Link href="/">
-            <Button size="sm" variant="ghost">
+            <Button size="sm" /*variant="ghost"*/ className="bg-white text-accent-foreground hover:bg-violet-100 hover:text-violet-500">
               <LogOut className="h-4 w-4 mr-2" />
               Вийти
             </Button>
           </Link>
         ) : isTeacher(userId) ? (
           <Link href="/teacher/courses">
-            <Button size="sm" variant="ghost">
+            <Button size="sm" /*variant="ghost"*/ className="bg-white text-accent-foreground hover:bg-violet-100 hover:text-violet-500">
               Кабінет вчителя
             </Button>
           </Link>

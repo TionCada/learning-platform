@@ -71,6 +71,7 @@ const CreatePage = () => {
                   </FormLabel>
                   <FormControl>
                     <Input
+                    className="rounded-full bg-white-100 focus-visible:ring-violet-500"
                       disabled={isSubmitting}
                       placeholder="приклад: Професійна Веб розробка"
                       {...field}
@@ -95,6 +96,7 @@ const CreatePage = () => {
               <Button
                 type="submit"
                 disabled={!isValid || isSubmitting}
+                className="enabled:bg-zinc-900"
               >
                 Продовжити
               </Button>
